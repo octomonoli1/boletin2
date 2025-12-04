@@ -1,0 +1,122 @@
+[
+  {
+    "alumno": {
+      "dni": "11111111L",
+      "nombre": "Pepe",
+      "apellidos": "Martin Dominguez",
+      "fechaNacimiento": "2025-12-04T00:00:00.000Z",
+      "direccion": {
+        "id": 1,
+        "codigoPostal": "41510",
+        "provincia": "Sevilla",
+        "localidad": "Mairena del Alcor",
+        "pais": "Sevilla"
+      }
+    },
+    "asignatura": {
+      "nombre": "Despliegue de aplicaiones web",
+      "descripcion": "Gestion y configuracion de servidores",
+      "horas": 70,
+      "profesor": {
+        "dni": "87654321P",
+        "nombre": "Leo",
+        "apellidos": "Bernal Bueno",
+        "telefono": "777666222",
+        "salario": 1500
+      }
+    },
+    "nota1": 10,
+    "nota2": 8,
+    "nota3": 8
+  },
+  {
+    "alumno": {
+      "dni": "11111111L",
+      "nombre": "Pepe",
+      "apellidos": "Martin Dominguez",
+      "fechaNacimiento": "2025-12-04T00:00:00.000Z",
+      "direccion": {
+        "id": 1,
+        "codigoPostal": "41510",
+        "provincia": "Sevilla",
+        "localidad": "Mairena del Alcor",
+        "pais": "Sevilla"
+      }
+    },
+    "asignatura": {
+      "nombre": "Proyecto Integrado",
+      "descripcion": "Proyecto real de desarrollo software",
+      "horas": 75,
+      "profesor": {
+        "dni": "12345678J",
+        "nombre": "Vladi",
+        "apellidos": "Rico Hebles",
+        "telefono": "600123456",
+        "salario": 3500
+      }
+    },
+    "nota1": 7,
+    "nota2": 6,
+    "nota3": 4
+  },
+  {
+    "alumno": {
+      "dni": "00000000T",
+      "nombre": "Sara",
+      "apellidos": "Dominguez Sanchez",
+      "fechaNacimiento": "2025-12-04T00:00:00.000Z",
+      "direccion": {
+        "id": 1,
+        "codigoPostal": "41520",
+        "provincia": "Sevilla",
+        "localidad": "El Viso del Alcor",
+        "pais": "Sevilla"
+      }
+    },
+    "asignatura": {
+      "nombre": "Despliegue de aplicaiones web",
+      "descripcion": "Gestion y configuracion de servidores",
+      "horas": 70,
+      "profesor": {
+        "dni": "87654321P",
+        "nombre": "Leo",
+        "apellidos": "Bernal Bueno",
+        "telefono": "777666222",
+        "salario": 1500
+      }
+    },
+    "nota1": 7,
+    "nota2": 8,
+    "nota3": 1
+  },
+  {
+    "alumno": {
+      "dni": "00000000T",
+      "nombre": "Sara",
+      "apellidos": "Dominguez Sanchez",
+      "fechaNacimiento": "2025-12-04T00:00:00.000Z",
+      "direccion": {
+        "id": 1,
+        "codigoPostal": "41520",
+        "provincia": "Sevilla",
+        "localidad": "El Viso del Alcor",
+        "pais": "Sevilla"
+      }
+    },
+    "asignatura": {
+      "nombre": "Proyecto Integrado",
+      "descripcion": "Proyecto real de desarrollo software",
+      "horas": 75,
+      "profesor": {
+        "dni": "12345678J",
+        "nombre": "Vladi",
+        "apellidos": "Rico Hebles",
+        "telefono": "600123456",
+        "salario": 3500
+      }
+    },
+    "nota1": 5,
+    "nota2": 4,
+    "nota3": 6
+  }
+]

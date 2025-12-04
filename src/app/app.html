@@ -231,15 +231,30 @@
         </defs>
       </svg>
       <h1>Hello, {{ title() }}</h1>
-      <h2>Direccion {{ direccion.idDireccion }}</h2>
-      Ciudad: <input [(ngModel)]="direccion.ciudad" /><br>
-      Cod Postal: <input [(ngModel)]="direccion.codPostal" /><br>
-      Municipio: <input [(ngModel)]="direccion.municipio" /><br>
-
-      <h2>Alumno {{ alumno.dni }}</h2>
-      Nombre: <input [(ngModel)]="alumno.nombre" /><br>
-      Apellidos: <input [(ngModel)]="alumno.apellidos" /><br>
-
+      @for(alumno of getAlumnos(); track alumno){
+        <div class="caja">
+          <h2 class="titulo">
+            {{alumno.nombre}}
+            <img class="imagen" src="https://cdn-icons-png.flaticon.com/512/6676/6676023.png"/>
+          </h2>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Asignatura</th>
+                <th>Descripcion Asig.</th>
+                <th>Num. horas</th>
+                <th>Profesor imparte</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for(matricula of getMatriculaByAlumno({{alumno.dni}}; track matricula)){
+                
+              }
+              <td></td>
+            </tbody>
+          </table>
+        </div>
+      }
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
