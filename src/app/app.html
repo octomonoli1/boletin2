@@ -247,7 +247,7 @@
               </tr>
             </thead>
             <tbody>
-              @for(item of getMatriculaByAlumno(alumno1.dni); track item){
+              @for(item of getMatriculaByAlumno(alumno.dni); track item){
                 <tr>
                   <td>{{item.asignatura.nombre}}</td>
                   <td>{{item.asignatura.descripcion}}</td>
